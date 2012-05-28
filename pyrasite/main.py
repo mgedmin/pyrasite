@@ -79,7 +79,7 @@ def main():
     parser.add_argument('payload', nargs='?', default='',
                         help="The Python script to be executed inside the"
                              " running process.  Can be one of the standard"
-                             " payloads (see --list-payloads) or a filname.")
+                             " payloads (see --list-payloads) or a filename.")
     parser.add_argument('-l', '--list-payloads', help='List standard payloads',
                         default=False, action='store_const', const=True)
     parser.add_argument('--gdb-prefix', dest='gdb_prefix',
